@@ -1,0 +1,118 @@
+.df-news{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  padding:0 px2rem(40px) px2rem(100px);
+  .news-ceremony{
+    position: relative;
+    margin-top:px2rem(30px);
+    width:px2rem(670px);
+    height:px2rem(400px);
+    box-shadow: 0 px2rem(2px) px2rem(10px) #6e787f;
+  }
+  .news-img{
+    width:100%;
+    height:100%;
+  }
+  .news-dec{
+    position:absolute;
+    bottom:0;
+    padding:0 px2rem(30px);
+    width:100%;
+    height:px2rem(66px);
+    line-height:px2rem(66px);
+    background:rgba(0, 0, 0, 0.5) ;
+    font-size:px2rem(28px);
+    color:#fff;
+    text-align:center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .news-sub{
+    margin-top:px2rem(40px);
+    padding:px2rem(18px) 0;
+    font-size:px2rem(38px);
+    font-weight: 600;
+    color:#45555F;
+  }
+  .news-sub:before{
+    content:'|';
+    color:#F34D19;
+    margin-right:px2rem(10px);
+    vertical-align: text-bottom;
+  }
+  .news-box{
+    padding:0 px2rem(30px) px2rem(50px);
+    width:100%;
+    background: #fff;
+    box-shadow: 0 0 px2rem(10px) #eee;
+    border:1px solid #efefef;
+    border-radius: px2rem(10px);
+  }
+  .news-list{
+    margin-top:px2rem(50px);
+  }
+  .news-l{
+    float:left;
+    width:px2rem(390px);
+    color:#999999;
+    font-size: px2rem(22px);
+  }
+  .news-r{
+    float:right;
+    width:px2rem(202px);
+    height: px2rem(150px);
+  }
+  .news-title{
+    font-size:px2rem(28px);
+    color:#45555F;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .news-time{
+    margin-top:px2rem(36px);
+  }
+  .news-trade{
+    float: left;
+    margin-right:px2rem(10px);
+    width:px2rem(100px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .news-name{
+    float: left;
+    width:px2rem(100px);
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right:px2rem(10px);
+  }
+  .news-data{
+    float:right;
+  }
+  .d-back{
+    padding: px2rem(14px) px2rem(36px);
+    margin: px2rem(86px) auto 0;
+    font-size: px2rem(22px);
+    color: #F34D19;
+    border: 1px solid #F34D19;
+    border-radius: px2rem(5px);
+    background: #f7f7f7;
+  }
+  .d-nomore{
+    padding: px2rem(14px) px2rem(36px);
+    margin: px2rem(86px) auto 0;
+    font-size: px2rem(22px);
+    color: #777;
+    background: none;
+  }
+  .b-new{
+    text-align:center;
+  }
+}

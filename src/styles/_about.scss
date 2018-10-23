@@ -1,0 +1,639 @@
+//关于我们
+.df-about{
+  width:px2rem(750px);
+  margin:0 auto;
+  .about-banner{
+    padding-top:px2rem(140px);
+    background: url(../images/bg-aboutus.jpg) no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:px2rem(420px);
+  }
+  .about-h{
+    margin:0;
+    width:100%;
+    font-size: px2rem(40px);
+    font-weight: normal;
+    text-align: center;
+    color:#fff;
+  }
+  .about-box{
+    position:relative;
+    padding:0 px2rem(40px);
+    width:100%;
+    height:px2rem(635px);
+  }
+  .about-briefly{
+    position: absolute;
+    top:px2rem(-120px);
+    padding:px2rem(40px) 0;
+    width:px2rem(672px);
+    height:px2rem(243px);
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: px2rem(5px);
+    text-align: center;
+  }
+  .about-img{
+    margin-bottom:px2rem(20px);
+    width:px2rem(200px);
+    height:px2rem(70px);
+  }
+  .about-title{
+    font-size:px2rem(30px);
+    color:white;
+    text-align: center;
+    width:px2rem(280px);
+    height:px2rem(56px);
+    line-height: px2rem(56px);
+    background:#F34D19;
+    border-radius: px2rem(40px);
+    margin: 0 auto;
+  }
+  .about-list{
+    position:absolute;
+    top:px2rem(145px);
+  }
+  .list-img{
+    float: left;
+    margin:px2rem(25px) 0;
+    width:px2rem(72px);
+    height:px2rem(72px);
+  }
+  .about-culture{
+    float: right;
+    line-height:px2rem(123px);
+  }
+  .about-l,.about-r{
+    float:left;
+    margin-bottom:px2rem(20px);
+    padding:0 px2rem(60px) 0 px2rem(35px);
+    width:px2rem(328px);
+    height:px2rem(123px);
+    background:#fff;
+    font-size: px2rem(30px);
+    color:#45555F;
+    border: 1px solid #fff;
+    border-radius: px2rem(5px);
+  }
+  .about-l{
+    margin-right:px2rem(18px);
+  }
+}
+
+
+//第一车贷简介
+.df-briefly{
+  width:px2rem(750px);
+  margin:0 auto;
+  .briefly-ind{
+    background: url(../images/brief-1.jpg) no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:px2rem(420px);
+  }
+  .briefly-prent{
+    padding:0 px2rem(40px);
+    width:100%;
+  }
+  .briefly-box{
+    position: relative;
+    margin-top:px2rem(-120px);
+    margin-bottom:px2rem(100px);
+    padding:px2rem(72px) px2rem(48px) px2rem(111px);
+    width:px2rem(672px);
+    color:#737373;
+    background:#fff;
+    font-size:px2rem(28px);
+    text-align: justify;
+    border: 1px solid #fff;
+    border-radius: px2rem(5px);
+  }
+  .briefly-title{
+    color:#45555F;
+    font-size:px2rem(34px);
+    text-align: center;
+    margin:0 0 px2rem(57px) 0;
+  }
+}
+
+
+//企业文化
+.df-culture{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  padding:0 px2rem(40px) px2rem(100px);
+  .culture-box{
+      width:100%;
+      height:px2rem(463px);
+      color:#fff;
+  }
+  .culture-box1{
+    margin-top:px2rem(20px);
+    padding:px2rem(160px) px2rem(48px) 0;
+    background:url(../images/culture-2.png) no-repeat center;
+    background-size: cover;
+    .culture-content{
+      text-align: justify;
+    }
+  }
+  .culture-box2{
+    padding:px2rem(170px) px2rem(48px) 0;
+    background:url(../images/culture-3.png) no-repeat center;
+    background-size: cover;
+  }
+  .culture-box3{
+    padding:px2rem(200px) px2rem(48px) 0;
+    background:url(../images/culture-1.png) no-repeat center;
+    background-size: cover;
+  }
+  .culture-title{
+    margin-bottom:px2rem(36px);
+    font-size:px2rem(50px);
+    text-align: center;
+  }
+  .culture-content{
+    font-size:px2rem(26px);
+    color:#CCCCCC;
+    text-align: center;
+  }
+
+}
+
+
+//发展历程
+.df-develop{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  padding:px2rem(50px) 0 0 0;
+  .lock-box{
+    position:relative;
+    width:100%;
+    height:px2rem(1960px);
+    overflow: hidden;
+  }
+  .dev-img{
+    position:absolute;
+    top:0;
+    left:px2rem(150px);
+    width:px2rem(453px);
+  }
+  .dev-big{
+    position:absolute;
+    left:px2rem(365px);
+    width:px2rem(20px);
+    height:px2rem(20px);
+    background:#fff;
+    border:1px solid #fff;
+    border-radius:50%;
+  }
+  .dev-small{
+    position:absolute;
+    left:px2rem(372px);
+    width:px2rem(8px);
+    height:px2rem(8px);
+    background:#000;
+    border:1px solid #000;
+    border-radius:50%;
+  }
+  .dev-title{
+    color:#45555F;
+    font-size: px2rem(32px);
+  }
+  .dev-content{
+    position: absolute;
+    color:#45555F;
+    font-size: px2rem(24px);
+  }
+  .dev-big-one{
+    top:px2rem(496px);
+  }
+  .dev-small-one{
+    top:px2rem(502px);
+  }
+  .dev-content-one{
+    left:px2rem(410px);
+    top:px2rem(485px);
+  }
+  .dev-big-two{
+    top:px2rem(596px);
+  }
+  .dev-small-two{
+    top:px2rem(602px);
+  }
+  .dev-content-two{
+    text-align:right;
+    right:px2rem(407px);
+    top:px2rem(585px);
+  }
+  .dev-big-three{
+    top:px2rem(696px);
+  }
+  .dev-small-three{
+    top:px2rem(702px);
+  }
+  .dev-content-three{
+    left:px2rem(410px);
+    top:px2rem(685px);
+  }
+  .dev-big-four{
+    top:px2rem(796px);
+  }
+  .dev-small-four{
+    top:px2rem(802px);
+  }
+  .dev-content-four{
+    text-align:right;
+    right:px2rem(407px);
+    top:px2rem(785px);
+  }
+  .dev-big-five{
+    top:px2rem(896px);
+  }
+  .dev-small-five{
+    top:px2rem(902px);
+  }
+  .dev-content-five{
+    left:px2rem(410px);
+    top:px2rem(885px);
+  }
+  .dev-big-six{
+    top:px2rem(996px);
+  }
+  .dev-small-six{
+    top:px2rem(1002px);
+  }
+  .dev-content-six{
+    text-align:right;
+    right:px2rem(407px);
+    top:px2rem(985px);
+  }
+  .dev-big-seven{
+    top:px2rem(1096px);
+  }
+  .dev-small-seven{
+    top:px2rem(1102px);
+  }
+  .dev-content-seven{
+    left:px2rem(410px);
+    top:px2rem(1085px);
+  }
+  .dev-big-eight{
+    top:px2rem(1196px);
+  }
+  .dev-small-eight{
+    top:px2rem(1202px);
+  }
+  .dev-content-eight{
+    text-align: right;
+    right:px2rem(407px);
+    top:px2rem(1185px);
+  }
+  .dev-big-nine{
+    top:px2rem(1296px);
+  }
+  .dev-small-nine{
+    top:px2rem(1302px);
+  }
+  .dev-content-nine{
+    left:px2rem(410px);
+    top:px2rem(1285px);
+  }
+  .dev-big-ten{
+    top:px2rem(1396px);
+  }
+  .dev-small-ten{
+    top:px2rem(1402px);
+  }
+  .dev-content-ten{
+    text-align: right;
+    right:px2rem(407px);
+    top:px2rem(1385px);
+  }
+  .dev-big-teno{
+    top:px2rem(1496px);
+  }
+  .dev-small-teno{
+    top:px2rem(1502px);
+  }
+  .dev-content-teno{
+    left:px2rem(410px);
+    top:px2rem(1485px);
+  }
+
+}
+
+
+//荣誉奖项
+.df-honour{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  .honour-ind{
+    padding-top:px2rem(140px);
+    background:url(../images/bg-honour.jpg) no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:px2rem(420px);
+  }
+  .honour-h{
+    margin:0;
+    font-size: px2rem(40px);
+    font-weight: normal;
+    text-align: center;
+    color:#fff;
+  }
+  .hon-ul{
+    padding:0 px2rem(40px);
+    position: relative;
+    margin-top:px2rem(-88px);
+    margin-bottom:px2rem(100px);
+  }
+  .hon-list{
+    margin-bottom:px2rem(22px);
+    padding:px2rem(40px) px2rem(15px);
+    background: #fff;
+    text-align:center;
+    font-size:px2rem(22px);
+    color:#999999;
+    border:1px solid #fff;
+    border-radius:px2rem(5px);
+    box-shadow: 0 0 px2rem(5px) #ebebeb;
+  }
+  .hon-h{
+    font-size:px2rem(30px);
+    color:#45555F;
+  }
+  .hon-dec{
+    margin-top:px2rem(30px);
+  }
+  .hon-two,.hon-three{
+    margin-bottom:px2rem(5px);
+  }
+}
+
+
+//核心团队
+.df-team{
+  max-width:px2rem(750px);
+  padding:px2rem(30px) px2rem(40px) px2rem(100px);
+  margin:0 auto;
+  .team-l,.team-r{
+    float:left;
+    position:relative;
+    margin-bottom:px2rem(24px);
+    width:px2rem(322px);
+    height:px2rem(460px);
+    text-align:center;
+    border:1px solid transparent;
+    border-radius:0 0 px2rem(5px) px2rem(5px);
+    box-shadow: 0 0 px2rem(8px) #d6d6d6;
+    overflow:hidden;
+  }
+  .team-l{
+    margin-right:px2rem(26px);
+  }
+  .team-img{
+    width:px2rem(322px);
+  }
+  .team-dec{
+    position:absolute;
+    bottom:px2rem(-354px);
+    padding:px2rem(20px) px2rem(25px) 0;
+    height:px2rem(460px);
+    color:#fff;
+    font-size: px2rem(20px);
+    text-align: justify;
+    background:rgba(0,0,0,.5);
+    border:1px solid transparent;
+    border-radius:0 0 px2rem(5px) px2rem(5px);
+    transition:all .5s;
+  }
+  .team-name{
+    font-size:px2rem(30px);
+    text-align: center;
+  }
+  .team-job{
+    margin:0 0 px2rem(25px) 0;
+    font-size:px2rem(22px);
+    text-align: center;
+  }
+  .team-show{
+    bottom:0;
+  }
+  .team-b{
+    line-height:1.3;
+  }
+
+}
+
+
+//联系我们
+.df-content{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  .content-banner{
+    padding-top:px2rem(110px);
+    background:url(../images/bg-aboutus.jpg) no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:px2rem(420px);
+  }
+  .content-h{
+    font-size: px2rem(40px);
+    font-weight: normal;
+    text-align: center;
+    color:#fff;
+  }
+  .content-top{
+    padding:0 px2rem(40px);
+    width:100%;
+  }
+  .content-address{
+    position:relative;
+    margin-top:px2rem(-178px);
+    padding:px2rem(30px) px2rem(53px);
+    width:100%;
+    min-height:px2rem(380px);
+    background:#fff;
+    font-size:px2rem(26px);
+    color:#737373;
+    border:1px solid #fff;
+    border-radius:px2rem(5px);
+  }
+  .content-city-box{
+    margin-top:px2rem(40px);
+    margin-bottom:px2rem(100px);
+  }
+  .content-way{
+    margin-bottom:px2rem(20px);
+    font-size:px2rem(32px);
+    color:#45555F;
+  }
+  .content-serve{
+    line-height: px2rem(50px);
+  }
+  .content-city{
+    padding:px2rem(32px) px2rem(50px);
+    margin-bottom:px2rem(10px);
+    width:100%;
+    height:px2rem(102px);
+    color:#999999;
+    font-size:px2rem(28px);
+    background:#fff;
+    border:1px solid #fff;
+    border-radius:px2rem(5px);
+  }
+  .content-only{
+    font-size:px2rem(32px);
+    color:#45555F;
+  }
+  .content-add{
+    float:right;
+    font-size: px2rem(28px);
+    color:#888888;
+  }
+
+  .con-box{
+    margin-top:px2rem(10px);
+    padding:px2rem(40px) px2rem(50px);
+    background:#fff;
+    border:1px solid #fff;
+    border-radius: px2rem(5px);
+    box-shadow: 0 0 px2rem(5px) #f7f7f7;
+  }
+  .content-con{
+    margin-right:px2rem(12px);
+  }
+
+}
+.am-accordion{
+  margin-bottom:px2rem(10px);
+  background:#fff !important;
+}
+.am-accordion:before{
+  height:0px !important;
+}
+.am-accordion-header{
+  height:px2rem(102px) !important;
+  line-height:px2rem(102px) !important;
+  padding:0 px2rem(75px) 0 px2rem(50px) !important;
+  box-sizing: border-box !important;
+}
+.am-accordion-header:after{
+  background:#fff !important;
+}
+.am-accordion-header i{
+  top:px2rem(36px) !important;
+  background-image:url(../images/arrow-1.png)  !important;
+  width:px2rem(30px) !important;
+  height:px2rem(30px) !important;
+  transform:rotate(0deg) !important;
+}
+.am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=true] i{
+  transform:rotate(90deg) !important;
+}
+.am-accordion-content{
+  background:#f7f7f7 !important;
+}
+.am-accordion-content-box{
+  color: #999999 !important;
+  font-size:px2rem(28px) !important;
+}
+.am-accordion-content-box:after{
+  background-color: #fff !important;
+}
+
+
+//加入我们
+.df-add{
+  max-width:px2rem(750px);
+  margin:0 auto;
+  .add-email{
+    padding:px2rem(40px) px2rem(82px);
+    background: #45555F;
+    color:#fff;
+    font-size:px2rem(30px);
+    text-align:center;
+    width:100%;
+  }
+  .add-type{
+    padding:px2rem(22px) px2rem(40px) 0;
+    background: #fff;
+  }
+  .type-list{
+    float:left;
+    margin-right:px2rem(22px);
+    margin-bottom:px2rem(20px);
+    padding:px2rem(12px) px2rem(24px);
+    color:#999999;
+    font-size:px2rem(26px);
+    border:1px solid #999;
+    border-radius: px2rem(5px);
+  }
+  .duty-box{
+    padding:px2rem(40px) px2rem(48px) px2rem(100px);
+  }
+  .duty-top{
+    background: #fff;
+  }
+  .job-list{
+    background:#fff;
+    color:#45555F;
+    font-size:px2rem(32px) ;
+  }
+  .duty-b{
+    margin-top:px2rem(10px);
+    padding:px2rem(40px) px2rem(48px) px2rem(90px);
+    background: #fff;
+  }
+  .duty-t{
+    color:#45555F;
+    font-size:px2rem(30px);
+  }
+  .req-num{
+    float: left;
+    width:50%;
+  }
+  .job-add{
+    float:right;
+    width:50%;
+  }
+  .job-duty{
+    margin:px2rem(50px) 0 px2rem(20px) 0;
+    color:#45555F;
+    font-size:px2rem(30px);
+    text-align: left;
+  }
+  .duty-cont{
+    color:#737373;
+    font-size:px2rem(26px);
+    text-align: justify;
+  }
+  .type-color{
+    float:left;
+    margin-right:px2rem(22px);
+    margin-bottom:px2rem(20px);
+    padding:px2rem(12px) px2rem(24px);
+    font-size:px2rem(26px);
+    border:1px solid #F34D19;
+    border-radius: px2rem(5px);
+    color:#fff;
+    background: #F34D19;
+  }
+  .active{
+    float:left;
+    margin-right:px2rem(22px);
+    margin-bottom:px2rem(20px);
+    padding:px2rem(12px) px2rem(24px);
+    font-size:px2rem(26px);
+    border:1px solid #F34D19;
+    border-radius: px2rem(5px);
+    color:#fff;
+    background: #F34D19;
+  }
+  .job-no{
+    text-align: center;
+    color:#777;
+    padding-top:px2rem(20px);
+  }
+}

@@ -1,0 +1,17 @@
+.dy-tabs{
+  color: #999999;
+}
+.am-tabs-default-bar-tab-active{
+  .dy-tabs{
+    font-weight:bold;
+    color:#F34D19;
+  }
+}
+.am-tabs-default-bar-underline {
+  position: absolute;
+  border: 1px solid #F34D19;
+}
+.dy-tab-c{
+  margin-top: px2rem(30px);
+  padding: 0 px2rem(40px);
+}

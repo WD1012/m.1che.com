@@ -1,0 +1,532 @@
+$conColor:#45555f;
+$color9: #999;
+$colorC: #eee;
+$colorPer: #f34d19;
+$colorBus: #13afec;
+$fz24: px2rem(24px);
+$fz26: px2rem(26px);
+$fz28: px2rem(28px);
+$fz30: px2rem(30px);
+$fz34: px2rem(34px);
+$fz36: px2rem(36px);
+$fz40: px2rem(40px);
+$fz44: px2rem(44px);
+h2,h3,h4{
+  font-weight: normal;
+}
+.txtInd{
+  text-indent: -.5rem;
+  padding-left: .5rem;
+}
+.fin-detail-per,.fin-detail,.mxcar,.fin-tab-c,.car-cho{
+  width: px2rem(750px);
+  max-width: px2rem(750px);
+  margin: 0 auto;
+}
+.car-cho{
+  padding: px2rem(40px) px2rem(40px) px2rem(80px) ;
+}
+.car-choBg{
+  height: px2rem(1154px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  border-radius: px2rem(8px);
+  box-shadow: px2rem(5px) px2rem(15px) px2rem(70px) #666;
+}
+.car-choBg .more-car{
+  display: block;
+  width: px2rem(500px);
+  line-height: px2rem(80px);
+  color: #fff;
+  font-size: px2rem(30px);
+  text-align: center;
+  border-radius: px2rem(40px);
+  position: absolute;
+  bottom: px2rem(70px);
+  left:50% ;
+  margin-left: px2rem(-250px);
+}
+/*.car-choBg .more-bus{
+  background-color: #f34d19;
+}
+.car-choBg .more-per{
+  background-color: #02d9d6;
+}*/
+
+/** 下载页 **/
+.dy-con{
+  max-width: px2rem(750px);
+  margin: 0 auto;
+  padding: px2rem(100px) 0;
+  .dy-txt{
+    font-size: $fz30;
+    line-height: px2rem(45px);
+    color: $conColor;
+  }
+  .dy-ewm{
+    text-align: center;
+    color: $color9;
+    font-size: $fz36;
+    padding-top: px2rem(100px);
+    img{
+      display: block;
+      margin: 0 auto;
+      width: px2rem(280px);
+    }
+    span{
+      display: block;
+      padding: px2rem(30px) 0;
+    }
+  }
+}
+/* 个人车源 */
+.mxcar{
+  .car-item{
+    padding: px2rem(30px) 0 px2rem(10px);
+  }
+  .car-item-img{
+    position: relative;
+  }
+  .car-item-img .car-img{
+    display: block;
+    width: 100%;
+  }
+  .car-item-img .car-tip{
+    position: absolute;
+    right: px2rem(45px);
+    top: 0;
+    width: px2rem(130px);
+    height: px2rem(130px);
+  }
+  .car-item-txt{
+    margin: 0 px2rem(45px);
+    background-color: #fff;
+    padding-bottom:  px2rem(65px);
+    border-bottom-right-radius: px2rem(10px);
+    border-bottom-left-radius: px2rem(10px);
+    box-shadow: px2rem(3px) px2rem(3px) px2rem(10px) $colorC;
+  }
+  .car-item-txt .car-item-title{
+    font-size: $fz40;
+    color: $conColor;
+    text-align: center;
+    margin: 0 auto;
+    padding: px2rem(34px) 0;
+  }
+  .car-item-price{
+    text-align: center;
+    padding: px2rem(18px) 0 px2rem(62px);
+    .car-price{
+      display: inline-block;
+      font-size: $fz30;
+      color: $color9;
+      border: 1px solid $color9;
+      border-radius: px2rem(5px);
+      width: px2rem(314px);
+      line-height: px2rem(52px);
+    }
+    strong{
+      font-size: $fz40;
+      color: $colorPer;
+    }
+    em{
+      display: inline-block;
+      padding: 0 px2rem(3px);
+    }
+  }
+  .car-item-txt .car-item-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: px2rem(300px);
+    line-height: px2rem(70px);
+    font-size: $fz30;
+    background-color: $colorPer;
+    border-radius: px2rem(5px);
+    color: #fff;
+  }
+  .car_list{
+    padding-bottom:px2rem(100px);
+  }
+  .car_list{
+    padding-bottom:px2rem(100px);
+  }
+  .car-more{
+    display: block;
+    margin: px2rem(90px) auto px2rem(100px);
+    text-align: center;
+    width: px2rem(200px);
+    line-height: px2rem(50px);
+    font-size: $fz24;
+    border-radius: px2rem(30px);
+    border: 1px solid $colorBus;
+    color: $colorBus;
+  }
+}
+/* 二级页 头部大图 */
+.ind-topImg{
+  height: px2rem(260px);
+  padding-top: px2rem(85px);
+  width: 100%;
+  color: white;
+  text-align: center;
+  .ind-topH{
+    font-size: $fz40;
+  }
+  .ind-topP{
+    font-size: $fz24;
+    color: #ddd;
+  }
+}
+
+
+/** 金融产品 **/
+.fin-tab-c{padding-bottom: px2rem(50px)!important;}
+.fin-item{
+  background-color: #fff;
+  height: px2rem(193px);
+  margin-bottom: px2rem(26px);
+  box-shadow: px2rem(3px) px2rem(3px) px2rem(10px) $colorC;
+  padding: px2rem(20px) 0 px2rem(20px) px2rem(173px);
+  position: relative;
+  .fin-item-recom{
+    display: inline-block;
+    width: px2rem(86px);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .fin-item-icon{
+    display: inline-block;
+    width: px2rem(138px);
+    position: absolute;
+    left: px2rem(15px);
+    top: px2rem(30px);
+
+  }
+  .fin-item-txt{
+    display: inline-block;
+    width: px2rem(500px);
+  }
+  .item-h{
+    font-size: $fz36;
+    color: $conColor;
+    padding-bottom: px2rem(30px);
+  }
+  .item-h span{
+    display: inline-block;
+    padding-left: px2rem(30px);
+    font-size: px2rem(20px);
+    color: #737373;
+    font-weight: normal;
+  }
+  .item-p{
+    color: $color9;
+    font-size: $fz26;
+  }
+  .item-link{
+    display: inline-block;
+    width: px2rem(110px);
+    line-height: px2rem(40px);
+    text-align: center;
+    border-radius: px2rem(5px);
+    position: absolute;
+    right: px2rem(30px);
+    bottom: px2rem(20px);
+    font-size: $fz24;
+  }
+  .bus-btn{
+    border: 1px solid $colorBus;
+    color: $colorBus;
+  }
+  .per-btn{
+    border: 1px solid $colorPer;
+    color: $colorPer;
+  }
+}
+
+.fin-bus-step{
+  margin-bottom: px2rem(50px);
+  .fin-stepH3{
+    font-size: $fz36;
+    color: $conColor;
+    padding: px2rem(20px) 0;
+    em{
+      float: left;
+      display: inline-block;
+      width: px2rem(4px);
+      height: px2rem(33px);
+      border-radius: px2rem(5px);
+      background-color: $colorPer;
+      margin: px2rem(10px) px2rem(8px) ;
+    }
+  }
+  .fin-stepImg{
+    background-color: #fff;
+    border-radius: px2rem(10px);
+    padding: px2rem(45px) px2rem(40px);
+    box-shadow: px2rem(3px) px2rem(3px) px2rem(10px) $colorC;
+    img{
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+/* 金融车商详情 */
+.fin-detail{
+  padding-bottom: px2rem(80px);
+  position: relative;
+  .fin-deImg{
+    height: px2rem(420px);
+    background: url('../images/fin-detail.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    box-shadow: px2rem(3px) px2rem(3px) px2rem(10px) $colorC;
+  }
+  .fin-deImg .fin-deImg-t{
+    padding-top: px2rem(60px);
+    font-size: px2rem(50px);
+    color: #fff;
+    height: px2rem(265px);
+    line-height: px2rem(265px);
+    line-height: px2rem(110px);
+    margin: 0 px2rem(60px);
+    border-bottom: 1px solid #666;
+  }
+  .fin-deImg .fin-deImg-t img{
+    display: inline-block;
+    width: px2rem(110px);
+    vertical-align: middle;
+  }
+  .fin-deImg-s{
+    overflow: hidden;
+  }
+  .fin-deImg-s label{
+    width: 50%;
+    text-align: center;
+    padding: 0 px2rem(75px);
+    margin: px2rem(24px) 0;
+    float: left;
+  }
+  .fin-img-l1{
+    border-right: 1px solid #666;
+  }
+  .label-s{
+    font-size: px2rem(22px);
+    color: $color9;
+  }
+  .label-st{
+    display: inline-block;
+    font-size: $fz34;
+    color: #fff;
+    padding-top: px2rem(5px);
+    font-weight: normal;
+  }
+
+  .fin-deTxt{
+
+    padding: 0 px2rem(40px);
+  }
+  .fin-deTxt .fin-deTxt-h{
+    font-size: $fz36;
+    color: $conColor;
+    padding: px2rem(50px) 0 px2rem(30px);
+    em{
+      float: left;
+      display: inline-block;
+      width: px2rem(4px);
+      height: px2rem(34px);
+      border-radius: px2rem(5px);
+      background-color: $colorBus;
+      margin: px2rem(10px) px2rem(8px);
+    }
+  }
+  .fin-deTxt-div{
+    background-color: #fff;
+    border-radius: px2rem(10px);
+    padding: px2rem(35px) px2rem(30px);
+    box-shadow: px2rem(3px) px2rem(3px) px2rem(10px) $colorC;
+    .fin-deTxt-p{
+      color: #737373;
+      font-size: $fz26;
+      line-height: px2rem(48px);
+    }
+  }
+  .fin-basic{
+    display: block;
+    padding: px2rem(15px) 0;
+  }
+  .fin-basic-l{
+    display: inline-block;
+    width: px2rem(130px);
+    color: $color9;
+    font-size: $fz24;
+    text-align: right;
+    float: left;
+  }
+  .fin-basic-r{
+    display: inline-block;
+    max-width: px2rem(425px);
+    padding-left: px2rem(23px);
+  }
+  .app-btn{
+    display: block;
+    width: 84%;
+    max-width: px2rem(760px);
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 8%;
+    background-color: $colorBus;
+    color: #fff;
+    font-size: $fz36;
+    text-align: center;
+    line-height: px2rem(80px);
+    border-radius: px2rem(5px);
+    //box-shadow: px2rem(3px) px2rem(3px) px2rem(20px) $colorBus;
+  }
+}
+
+/* 金融个人详情 */
+.fin-detail-per{
+  padding: px2rem(40px) px2rem(40px) px2rem(80px);
+  .fin-per1{
+    padding: px2rem(400px) px2rem(30px) px2rem(30px);
+    position: relative;
+    border-radius: px2rem(10px);
+  }
+  .stages{
+    background: url('../images/fin-per1.jpg') no-repeat top center #fff;
+    background-size: 100% auto;
+  }
+  .lease{
+    background: url('../images/fin-per2.jpg') no-repeat top center #fff;
+    background-size: 100% auto;
+  }
+  .fin-perBasic{
+    padding-bottom: px2rem(30px);
+    border-bottom: px2rem(1px) solid #f2f2f2;
+  }
+  .fin-perBasic h2{
+    font-size: $fz44;
+    color: $colorPer;
+    padding-bottom: px2rem(20px);
+  }
+  .fin-link{
+    width: px2rem(150px);
+    line-height: px2rem(50px);
+    color: #fff;
+    font-size: $fz26;
+    position: absolute;
+    top: px2rem(500px);
+    right: px2rem(30px);
+    text-align: center;
+    border-radius: px2rem(5px);
+  }
+  .apply{
+    background-color: $colorPer;
+  }
+  .forward{
+    background-color: $color9;
+  }
+  .fin-basic{
+    display: block;
+    padding: px2rem(8px) 0;
+  }
+  .fin-basic-l{
+    display: inline-block;
+    color: $color9;
+    font-size: $fz26;
+  }
+  .fin-basic-r{
+    display: inline-block;
+    max-width: px2rem(425px);
+    padding-left: px2rem(23px);
+    color: $conColor;
+    font-size: $fz28;
+  }
+  .fin-perDe h4{
+    padding: px2rem(35px) 0 px2rem(25px);
+    color: $conColor;
+    font-size: $fz30;
+  }
+  .fin-perDe p{
+    color: $color9;
+    font-size: $fz26;
+    line-height: px2rem(40px);
+  }
+
+  .fin-deTxt-h{
+    font-size: $fz36;
+    color: $conColor;
+    padding: px2rem(50px) 0 px2rem(30px);
+    em{
+      float: left;
+      display: inline-block;
+      width: px2rem(4px);
+      height: px2rem(34px);
+      border-radius: px2rem(5px);
+      background-color: $colorPer;
+      margin: px2rem(10px) px2rem(8px);
+    }
+  }
+  .fin-deTxt-div{
+    background-color: #fff;
+    img{
+      border-radius: px2rem(10px);
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

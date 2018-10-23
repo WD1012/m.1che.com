@@ -1,0 +1,63 @@
+{
+  "name": "spa-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.1.6",
+    "babel-polyfill": "^6.26.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "node-sass-chokidar": "^1.1.0",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.11.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.2",
+    "jssha": "^2.3.1",
+    "memory-cache": "^0.2.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "proxy": "http://localhost:10091",
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "dev-start-server":"NODE_ENV=development pm2 start server.js --name 'dev.server'",
+    "dev": "run-p dev-start-server watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test-start-client":"pm2 start client.js --name 'test.client'",
+    "test-start-server":"NODE_ENV=testing pm2 start server.js --name 'test.server'",
+    "test-reload-client":"pm2 reload client.js --name 'test.client'",
+    "test-reload-server":"NODE_ENV=testing pm2 reload server.js --name 'test.server'",
+    "test-reload": "run-s test-reload-server test-reload-client",
+    "test-start": "run-s test-start-server test-start-client",
+    "test-restart-client":"pm2 restart client.js --name 'test.client'",
+    "test-restart-server":"NODE_ENV=testing pm2 restart server.js --name 'test.server'",
+    "test-restart": "run-s test-restart-server test-restart-client",
+    "pro-start-client":"pm2 start client.js --name 'pro.client'",
+    "pro-start-server":"NODE_ENV=production pm2 start server.js --name 'pro.server'",
+    "pro-reload-client":"pm2 reload client.js --name 'pro.client'",
+    "pro-reload-server":"NODE_ENV=production pm2 reload server.js --name 'pro.server'",
+    "pro-reload": "run-s pro-reload-server pro-reload-client",
+    "pro-start": "run-s pro-start-server pro-start-client",
+    "pro-restart-client":"pm2 restart client.js --name 'pro.client'",
+    "pro-restart-server":"NODE_ENV=production pm2 restart server.js --name 'pro.server'",
+    "pro-restart": "run-s pro-restart-server pro-restart-client",
+    "precommit": "lint-staged",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

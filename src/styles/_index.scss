@@ -1,0 +1,87 @@
+.ind-list{
+  padding: px2rem(70px) px2rem(40px) px2rem(80px);
+  .il-link{
+    display: block;
+    height: px2rem(260px);
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top:px2rem(72px);
+    margin-bottom: px2rem(20px);
+    box-shadow: 0 2px 5px black;
+    border-radius: 5px;
+  }
+  .il-h{
+    font-size:px2rem(36px);
+    margin-bottom:px2rem(14px);
+  }
+  .il-p{
+    font-size:px2rem(24px);
+  }
+}
+.ind-banner{
+    width:100%;
+    height:px2rem(400px);
+}
+.ind-enter-box{
+    position: relative;
+}
+.ind-ent-w{
+  position: absolute;
+  left: 0;
+  margin-top:-(px2rem(50px));
+  width: 100%;
+  padding: 0 px2rem(40px);
+  .ind-ent{
+    height: px2rem(100px);
+    background: #1e1e1e;
+    padding-top: px2rem(26px);
+    font-size:px2rem(30px);
+    border-radius: px2rem(50px);
+    box-shadow: 0 2px 11px black;
+  }
+  .ind-ent-l{
+    float: left;
+    width: 50%;
+    color: #13afec;
+  }
+  .ind-ent-r{
+    float: right;
+    width: 50%;
+    color: #f34d19;
+    &:before{
+      content: '';
+      position: absolute;
+      left: 50%;
+      top:px2rem(20px);
+      height: px2rem(60px);
+      width: 1px;
+      border-left:1px solid #4b4b4b;
+    }
+  }
+  .ind-ent-item{
+     text-align: center;
+  }
+  .ind-ent-img{
+    width: px2rem(58px);
+    vertical-align: middle;
+    margin-right:px2rem(20px);
+    margin-top:-3px;
+  }
+}
+.ind-sw{
+  position: fixed;
+  right: 0;
+  top:73%;
+  width: px2rem(86px);
+  .ind-apo{
+    display: block;
+    margin-top: px2rem(20px);
+    width: px2rem(86px);
+  }
+  .ind-loan{
+    display: block;
+   width: px2rem(86px);
+  }
+}
+
